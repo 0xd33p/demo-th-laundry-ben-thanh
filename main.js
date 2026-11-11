@@ -1,5 +1,5 @@
 (function () {
-  // Giờ theo website thlaundry.com + nguồn phụ (chưa PlacesSearch): mỗi ngày 07:00–22:00, Asia/Ho_Chi_Minh
+  // Giờ PlacesSearch (khớp website tiệm): mỗi ngày 07:00–22:00, Asia/Ho_Chi_Minh
   var parts = new Intl.DateTimeFormat('en-US', {
     timeZone: 'Asia/Ho_Chi_Minh',
     hour: 'numeric',
